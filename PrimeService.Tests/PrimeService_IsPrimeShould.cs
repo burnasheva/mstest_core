@@ -1,16 +1,16 @@
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using Prime.Services;
 
-namespace Prime.UnitTests.Services
+namespace PrimeService.Tests
 {
 	[TestClass]
 	public class PrimeService_IsPrimeShould
 	{
-		private readonly PrimeService _primeService;
+		private readonly Prime.Services.PrimeService _primeService;
 
 		public PrimeService_IsPrimeShould()
 		{
-			_primeService = new PrimeService();
+			_primeService = new Prime.Services.PrimeService();
 		}
 
 		[TestMethod]
